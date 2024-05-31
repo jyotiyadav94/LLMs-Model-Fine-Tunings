@@ -77,11 +77,11 @@ LLaMA-3, released by Meta, includes significant enhancements over its predecesso
 Mistral 7B is a 7-billion parameter language model designed for high performance and efficiency. It outperforms the best open 13B model (Llama 2) on all evaluated benchmarks and even surpasses the best 34B model (Llama 1) in reasoning, mathematics, and code generation tasks.
 
 **Technical Aspects:**
--- Mistral 7B has a context length of 8,192 tokens. This is double the context length of many previous models and allows Mistral 7B to process and generate longer sequences of text, making it suitable for tasks like summarizing long documents or engaging in extended conversations.
-- **Grouped-Query Attention (GQA):** This mechanism speeds up inference and reduces memory requirements during decoding, allowing for larger batch sizes and higher throughput.
-- **Sliding Window Attention (SWA):** This allows the model to handle longer sequences of text effectively at a reduced computational cost. It achieves this by limiting the attention span of each token to a window of the most recent tokens, thereby reducing the quadratic complexity of traditional attention mechanisms.
-- **Rolling Buffer Cache:** This further optimizes memory usage by storing only the most recent keys and values within a fixed-size cache.
-- **Pre-fill and Chunking:** These techniques are used to efficiently process long input sequences by pre-filling the cache with the prompt and breaking down large prompts into smaller chunks.
+- Mistral 7B has a context length of 8,192 tokens. This is double the context length of many previous models and allows Mistral 7B to process and generate longer sequences of text, making it suitable for tasks like summarizing long documents or engaging in extended conversations.
+- Grouped-Query Attention (GQA) This mechanism speeds up inference and reduces memory requirements during decoding, allowing for larger batch sizes and higher throughput.
+- Sliding Window Attention (SWA) This allows the model to handle longer sequences of text effectively at a reduced computational cost. It achieves this by limiting the attention span of each token to a window of the most recent tokens, thereby reducing the quadratic complexity of traditional attention mechanisms.
+- Rolling Buffer Cache This further optimizes memory usage by storing only the most recent keys and values within a fixed-size cache.
+- Pre-fill and Chunking These techniques are used to efficiently process long input sequences by pre-filling the cache with the prompt and breaking down large prompts into smaller chunks.
 - Mistral 7B is released under the Apache 2.0 license, making it open source and available for both research and commercial use.
 - The model is designed for easy fine-tuning on various tasks. A fine-tuned version, Mistral 7B-Instruct, outperforms Llama 2 13B-Chat on both human and automated benchmarks.
 - The paper emphasizes the importance of balancing high performance with efficiency in large language models.
