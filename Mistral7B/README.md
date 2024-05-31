@@ -47,5 +47,5 @@ If you encounter any issues or require further clarification, please feel free t
 Please Ignore the count the email count as  9 in the notebook `mistral_7b_4bit_qlora_fine_tuning.ipynb`. since I performed multiple experiments so I didn't save the notebook runs from the 703 emails. Instead I saved the adopter layer to huggingFace and then performed the `merge_load (1) (1).ipynb` on the same model. 
 
 
-###Inspiration - 
+###Inspiration 
 https://www.datacamp.com/tutorial/mistral-7b-tutorial
