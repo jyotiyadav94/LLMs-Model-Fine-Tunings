@@ -48,7 +48,7 @@ LLaMA-3, released by Meta, includes significant enhancements over its predecesso
 - Training on diverse, high-quality data
 - Advanced instruction fine-tuning
 
-**Repository**: [LLaMA-3 8BFine-Tuned](https://github.com/jyotiyadav94/LLMs-Model-Fine-Tunings/blob/main/Llama3-8B/Llama_3_8b_2x_faster_finetuning.ipynb)
+**Repository**: [LLaMA-3 8B-Fine-Tuned](https://github.com/jyotiyadav94/LLMs-Model-Fine-Tunings/blob/main/Llama3-8B/Llama_3_8b_2x_faster_finetuning.ipynb)
 
 ### 3. Microsoft Phi-1.5
 
@@ -68,7 +68,7 @@ LLaMA-3, released by Meta, includes significant enhancements over its predecesso
 - High performance on reasoning and language understanding tasks
 - Reduced toxic content generation
 
-**Repository**: [Microsoft Phi-1.5](https://github.com/jyotiyadav94/LLMs-Model-Fine-Tunings/blob/main/Microsoft%20Phi1.5/Finetuning_Gathnex_Phi_1_5.ipynb)
+**Repository**: [Microsoft Phi-1.5-Fine-Tuned](https://github.com/jyotiyadav94/LLMs-Model-Fine-Tunings/blob/main/Microsoft%20Phi1.5/Finetuning_Gathnex_Phi_1_5.ipynb)
 
 ### 4. Mistral 7B
 
@@ -81,7 +81,7 @@ Mistral 7B is designed to balance performance and efficiency. It is a scalable L
 - Efficient training and inference
 - Scalable performance
 
-**Repository**: [Microsoft Phi-1.5](https://github.com/jyotiyadav94/LLMs-Model-Fine-Tunings/blob/main/Microsoft%20Phi1.5/Finetuning_Gathnex_Phi_1_5.ipynb)
+**Repository**: [Mistral 7B-Fine-Tuned](https://github.com/jyotiyadav94/LLMs-Model-Fine-Tunings/tree/main/Mistral7B)
 
 ### 5. Mistral 8* 7B
 
@@ -94,6 +94,8 @@ Mistral 8* 7B is a variant of Mistral 7B, optimized for enhanced performance in 
 - Enhanced performance for specific tasks
 - Specialized fine-tuning
 
+**Repository**: [Mistral8X7B-Fine-Tuned](https://github.com/jyotiyadav94/LLMs-Model-Fine-Tunings/blob/main/Mistral8*7B/Mixtral_fine_tuning8X7B.ipynb)
+
 ### 6. Gemma 7B
 
 **Research Paper:** [Gemma: Multilingual NER](https://arxiv.org/abs/2403.01995)
@@ -105,11 +107,13 @@ Gemma 7B is specifically designed for multilingual NER tasks. It excels in ident
 - Specialized in multilingual NER
 - Trained on diverse multilingual data
 
+**Repository**: [Mistral8X7B-Fine-Tuned](https://github.com/jyotiyadav94/LLMs-Model-Fine-Tunings/blob/main/Microsoft%20Phi1.5/Finetuning_Gathnex_Phi_1_5.ipynb)
+
 ## Conclusion
 
 This project evaluates the performance of the aforementioned LLMs on the NER task for Italian emails. By comparing their characteristics, training techniques, and specialized features, we aim to identify the most suitable model for this specific task. The detailed analysis and results of this study will guide the selection of the best model for practical deployment.
 
 
 ## References 
-1. 
+1. https://arxiv.org/abs/2305.07759
 2. https://huggingface.co/unsloth/llama-3-8b-bnb-4bit
