@@ -34,7 +34,7 @@ variants of this model with 7B, 13B, and 70B parameters as well.
 - Improved context length (up to 4,096 tokens)
 - Enhanced safety and usability
 
-**Repository**: [AI-in-industry-Anomaly-Detection](https://github.com/jyotiyadav94/LLMs-Model-Fine-Tunings/tree/main/Llama2-7B)
+**Repository**: [LLaMA-2 7B-Fine-Tuned](https://github.com/jyotiyadav94/LLMs-Model-Fine-Tunings/tree/main/Llama2-7B)
 
 ### 2. LLaMA-3 8B
 
@@ -48,7 +48,7 @@ LLaMA-3, released by Meta, includes significant enhancements over its predecesso
 - Training on diverse, high-quality data
 - Advanced instruction fine-tuning
 
-**Repository**: [AI-in-industry-Anomaly-Detection](https://github.com/jyotiyadav94/LLMs-Model-Fine-Tunings/blob/main/Llama3-8B/Llama_3_8b_2x_faster_finetuning.ipynb)
+**Repository**: [LLaMA-3 8BFine-Tuned](https://github.com/jyotiyadav94/LLMs-Model-Fine-Tunings/blob/main/Llama3-8B/Llama_3_8b_2x_faster_finetuning.ipynb)
 
 ### 3. Microsoft Phi-1.5
 
@@ -68,7 +68,7 @@ LLaMA-3, released by Meta, includes significant enhancements over its predecesso
 - High performance on reasoning and language understanding tasks
 - Reduced toxic content generation
 
-**Repository**: [AI-in-industry-Anomaly-Detection](https://github.com/jyotiyadav94/LLMs-Model-Fine-Tunings/blob/main/Microsoft%20Phi1.5/Finetuning_Gathnex_Phi_1_5.ipynb)
+**Repository**: [Microsoft Phi-1.5](https://github.com/jyotiyadav94/LLMs-Model-Fine-Tunings/blob/main/Microsoft%20Phi1.5/Finetuning_Gathnex_Phi_1_5.ipynb)
 
 ### 4. Mistral 7B
 
@@ -80,6 +80,8 @@ Mistral 7B is designed to balance performance and efficiency. It is a scalable L
 - 7 billion parameters
 - Efficient training and inference
 - Scalable performance
+
+**Repository**: [Microsoft Phi-1.5](https://github.com/jyotiyadav94/LLMs-Model-Fine-Tunings/blob/main/Microsoft%20Phi1.5/Finetuning_Gathnex_Phi_1_5.ipynb)
 
 ### 5. Mistral 8* 7B
 
