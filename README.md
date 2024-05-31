@@ -74,12 +74,18 @@ LLaMA-3, released by Meta, includes significant enhancements over its predecesso
 
 **Research Paper:** [Mistral 7B](https://arxiv.org/abs/2310.06825)
 
-Mistral 7B is designed to balance performance and efficiency. It is a scalable LLM that performs well on various tasks, including NER. The model emphasizes efficient training and inference, making it suitable for deployment in resource-constrained environments.
+Mistral 7B is a 7-billion parameter language model designed for high performance and efficiency. It outperforms the best open 13B model (Llama 2) on all evaluated benchmarks and even surpasses the best 34B model (Llama 1) in reasoning, mathematics, and code generation tasks.
 
-**Key Features:**
-- 7 billion parameters
-- Efficient training and inference
-- Scalable performance
+**Technical Aspects:**
+-- Mistral 7B has a context length of 8,192 tokens. This is double the context length of many previous models and allows Mistral 7B to process and generate longer sequences of text, making it suitable for tasks like summarizing long documents or engaging in extended conversations.
+- **Grouped-Query Attention (GQA):** This mechanism speeds up inference and reduces memory requirements during decoding, allowing for larger batch sizes and higher throughput.
+- **Sliding Window Attention (SWA):** This allows the model to handle longer sequences of text effectively at a reduced computational cost. It achieves this by limiting the attention span of each token to a window of the most recent tokens, thereby reducing the quadratic complexity of traditional attention mechanisms.
+- **Rolling Buffer Cache:** This further optimizes memory usage by storing only the most recent keys and values within a fixed-size cache.
+- **Pre-fill and Chunking:** These techniques are used to efficiently process long input sequences by pre-filling the cache with the prompt and breaking down large prompts into smaller chunks.
+- Mistral 7B is released under the Apache 2.0 license, making it open source and available for both research and commercial use.
+- The model is designed for easy fine-tuning on various tasks. A fine-tuned version, Mistral 7B-Instruct, outperforms Llama 2 13B-Chat on both human and automated benchmarks.
+- The paper emphasizes the importance of balancing high performance with efficiency in large language models.
+- The authors suggest that their work with Mistral 7B opens up new possibilities for achieving high performance with smaller models, potentially leading to more cost-effective and sustainable AI systems.
 
 **Repository**: [Mistral 7B-Fine-Tuned](https://github.com/jyotiyadav94/LLMs-Model-Fine-Tunings/tree/main/Mistral7B)
 
@@ -87,12 +93,18 @@ Mistral 7B is designed to balance performance and efficiency. It is a scalable L
 
 **Research Paper:** [Mistral 8X7B](https://arxiv.org/abs/2401.04088)
 
-Mistral 8* 7B is a variant of Mistral 7B, optimized for enhanced performance in specific applications. This model variant focuses on fine-tuning and optimization for specialized tasks, ensuring higher accuracy and efficiency.
+Mixtral 8x7B is a sparse mixture of experts model (SMoE) with the same architecture as Mistral 7B, but each layer is composed of 8 feedforward blocks (experts). A router network selects two experts to process the current state and combine their outputs for every token at each layer. Although each token only sees two experts, the selected experts can be different at each time step. As a result, each token has access to 47B parameters but only uses 13B active parameters during inference.
 
 **Key Features:**
-- 7 billion parameters
-- Enhanced performance for specific tasks
-- Specialized fine-tuning
+- **Sparse Mixture of Experts:** Architecture with 8 feedforward blocks per layer
+- **Router Network:** Selects two experts per token per layer
+- **Efficient Inference:** Access to 47B parameters with only 13B active during inference
+- **Context Length:** Trained with a context size of 32k tokens
+
+**Performance:**
+- Outperforms or matches Llama 2 70B and GPT-3.5 across all evaluated benchmarks
+- Excels in mathematics, code generation, and multilingual benchmarks
+- Fine-tuned version, Mixtral 8x7B-Instruct, surpasses GPT-3.5 Turbo, Claude-2.1, Gemini Pro, and Llama 2 70B-chat on human benchmarks
 
 **Repository**: [Mistral8X7B-Fine-Tuned](https://github.com/jyotiyadav94/LLMs-Model-Fine-Tunings/blob/main/Mistral8*7B/Mixtral_fine_tuning8X7B.ipynb)
 
