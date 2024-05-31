@@ -112,12 +112,25 @@ Mixtral 8x7B is a sparse mixture of experts model (SMoE) with the same architect
 
 **Research Paper:** [Gemma-7B](https://arxiv.org/abs/2403.08295)
 
-Gemma 7B is specifically designed for multilingual NER tasks. It excels in identifying and categorizing named entities in different languages, making it ideal for the NER task on Italian emails. The model is trained on a large and diverse multilingual dataset to ensure high accuracy and robustness.
+This paper introduces Gemma, a family of open language models based on the research and technology used to create Google's Gemini models. The key points are:
+
+- Gemma comes in two sizes: a 7 billion parameter model and a 2 billion parameter model, designed for different computational constraints and applications.
+- The models are trained on up to 6 trillion tokens of text data, using architectures and training recipes inspired by Gemini.
+- Gemma advances state-of-the-art performance compared to other open models of similar or larger size on a wide range of benchmarks, including question answering, reasoning, mathematics, and coding.
+- The paper provides details on the model architecture, training infrastructure, pretraining and finetuning procedures, including supervised fine-tuning and reinforcement learning from human feedback.
+- Comprehensive evaluations are presented on automated benchmarks as well as human preference evaluations against other models like Mistral.
+- The paper discusses the approach to responsible development and deployment, including assessments of potential benefits and risks, as well as mitigations for risks.
+
+**Technical Aspects:**
+- The models are trained with a context length of 8,192 tokens.
+- Uses techniques like multi-query attention, rotary position embeddings, and gated activation functions.
+- The 7B model uses multi-head attention while the 2B model uses multi-query attention.
 
 **Key Features:**
 - 7 billion parameters
 - Specialized in multilingual NER
 - Trained on diverse multilingual data
+- Advanced state-of-the-art performance on various benchmarks
 
 **Repository**: [Mistral8X7B-Fine-Tuned](https://github.com/jyotiyadav94/LLMs-Model-Fine-Tunings/blob/main/Microsoft%20Phi1.5/Finetuning_Gathnex_Phi_1_5.ipynb)
 
