@@ -48,18 +48,27 @@ LLaMA-3, released by Meta, includes significant enhancements over its predecesso
 - Training on diverse, high-quality data
 - Advanced instruction fine-tuning
 
-**Repository**: [AI-in-industry-Anomaly-Detection](https://github.com/jyotiyadav94/LLMs-Model-Fine-Tunings/tree/main/Llama2-7B)
+**Repository**: [AI-in-industry-Anomaly-Detection](https://github.com/jyotiyadav94/LLMs-Model-Fine-Tunings/blob/main/Llama3-8B/Llama_3_8b_2x_faster_finetuning.ipynb)
 
 ### 3. Microsoft Phi-1.5
 
-**Research Paper:** [Microsoft Phi-1.5: Multilingual Optimization](https://arxiv.org/abs/2401.01945)
-
-Microsoft Phi-1.5 is an open-source LLM optimized for multilingual tasks, including NER in various languages. It focuses on robustness and accuracy in understanding and generating multilingual content. The model incorporates extensive pretraining on a diverse dataset and employs advanced fine-tuning techniques to ensure high performance across different languages and tasks.
+  **Research Paper:** [LLaMA-3: Enhanced Capabilities](https://arxiv.org/abs/2309.05463)
+  
+  This paper introduces phi-1.5, a 1.3 billion parameter language model trained primarily on a specially curated "textbook-quality" synthetic dataset. The key findings are:
+- Phi-1.5 achieves performance comparable to models **10x larger on common sense reasoning and language understanding tasks**, and even exceeds larger models on **multi-step reasoning tasks like math and coding.**
+- The high performance despite smaller size challenges the notion that capabilities of large language models are solely determined by scale, suggesting data quality plays a crucial role.
+- Training on synthetic textbook-like data attenuates toxic content generation compared to web data, though phi-1.5 is not immune.
+- Phi-1.5 exhibits many traits of much larger models like step-by-step reasoning and in-context learning, both positive and negative like hallucinations.
+- The authors open-source phi-1.5 to facilitate research on urgent topics around large language models like in-context learning, bias mitigation, and hallucinations.
+- The paper demonstrates phi-1.5's flexible capabilities on tasks like question-answering, coding, and open-ended generation through various prompting techniques.
 
 **Key Features:**
-- Optimized for multilingual tasks
-- Robust NER capabilities
-- Extensive pretraining and fine-tuning
+- 1.3 billion parameters
+- Context length of 2,048 tokens
+- High performance on reasoning and language understanding tasks
+- Reduced toxic content generation
+
+**Repository**: [AI-in-industry-Anomaly-Detection](https://github.com/jyotiyadav94/LLMs-Model-Fine-Tunings/blob/main/Microsoft%20Phi1.5/Finetuning_Gathnex_Phi_1_5.ipynb)
 
 ### 4. Mistral 7B
 
