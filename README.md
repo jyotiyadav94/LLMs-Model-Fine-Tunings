@@ -8,7 +8,7 @@ This project aims to identify the best Open Large Language Model (LLM) for the N
 2. **Llama-3 8B**
 3. **Microsoft Phi1.5**
 4. **Mistral 7B**
-5. **Mistral 8* 7B**
+5. **Mistral 8*7B**
 6. **Gemma 7B**
 
 ## Model Characteristics
