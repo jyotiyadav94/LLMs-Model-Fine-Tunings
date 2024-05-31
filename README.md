@@ -132,12 +132,14 @@ This paper introduces Gemma, a family of open language models based on the resea
 - Trained on diverse multilingual data
 - Advanced state-of-the-art performance on various benchmarks
 
-**Repository**: [Mistral8X7B-Fine-Tuned](https://github.com/jyotiyadav94/LLMs-Model-Fine-Tunings/blob/main/Microsoft%20Phi1.5/Finetuning_Gathnex_Phi_1_5.ipynb)
+**Repository**: [Gemma-7B-Fine-Tuned](https://github.com/jyotiyadav94/LLMs-Model-Fine-Tunings/blob/main/Microsoft%20Phi1.5/Finetuning_Gathnex_Phi_1_5.ipynb)
 
 ## Conclusion
 
-This project evaluates the performance of the aforementioned LLMs on the NER task for Italian emails. By comparing their characteristics, training techniques, and specialized features, we aim to identify the most suitable model for this specific task. The detailed analysis and results of this study will guide the selection of the best model for practical deployment.
+This project evaluates the performance of the aforementioned LLMs on the NER task for Italian emails. By comparing their characteristics, training techniques, and specialized features, we aim to identify the most suitable model for this specific task. 
 
+1. Llama3-8B
+2. Microsoft Phi1.5
 
 ## References 
 1. https://arxiv.org/abs/2305.07759
