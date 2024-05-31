@@ -72,7 +72,7 @@ LLaMA-3, released by Meta, includes significant enhancements over its predecesso
 
 ### 4. Mistral 7B
 
-**Research Paper:** [Mistral: Scalable Language Models](https://arxiv.org/abs/2402.01935)
+**Research Paper:** [Mistral: Scalable Language Models](https://arxiv.org/abs/2310.06825)
 
 Mistral 7B is designed to balance performance and efficiency. It is a scalable LLM that performs well on various tasks, including NER. The model emphasizes efficient training and inference, making it suitable for deployment in resource-constrained environments.
 
@@ -85,7 +85,7 @@ Mistral 7B is designed to balance performance and efficiency. It is a scalable L
 
 ### 5. Mistral 8* 7B
 
-**Research Paper:** [Mistral: Scalable Language Models](https://arxiv.org/abs/2402.01935)
+**Research Paper:** [Mistral: Scalable Language Models](https://arxiv.org/abs/2401.04088)
 
 Mistral 8* 7B is a variant of Mistral 7B, optimized for enhanced performance in specific applications. This model variant focuses on fine-tuning and optimization for specialized tasks, ensuring higher accuracy and efficiency.
 
@@ -98,7 +98,7 @@ Mistral 8* 7B is a variant of Mistral 7B, optimized for enhanced performance in 
 
 ### 6. Gemma 7B
 
-**Research Paper:** [Gemma: Multilingual NER](https://arxiv.org/abs/2403.01995)
+**Research Paper:** [Gemma: Multilingual NER](https://arxiv.org/abs/2403.08295)
 
 Gemma 7B is specifically designed for multilingual NER tasks. It excels in identifying and categorizing named entities in different languages, making it ideal for the NER task on Italian emails. The model is trained on a large and diverse multilingual dataset to ensure high accuracy and robustness.
 
