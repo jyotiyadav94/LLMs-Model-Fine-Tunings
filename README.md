@@ -136,7 +136,7 @@ This paper introduces Gemma, a family of open language models based on the resea
 
 ## Conclusion
 
-This project evaluates the performance of the aforementioned LLMs on the NER task for Italian emails. By comparing their characteristics, training techniques, and specialized features, we aim to identify the most suitable model for this specific task. 
+This project evaluates the performance of the aforementioned LLMs on the NER task for Italian emails. By comparing their all the fine-tuned LLMs models, we aim to identify the most suitable model for this specific task. 
 
 1. Llama3-8B
 2. Microsoft Phi1.5
