@@ -6,6 +6,28 @@ Agent Demo : [Agent Demo](https://huggingface.co/spaces/Jyotiyadav/NER-Agent)
 
 LLM Model Fine-tuned Demo : [LLM Model Fine-tuned Demo](https://huggingface.co/spaces/Jyotiyadav/LLMsModelFine-tuned)
 
+1. Cleaning Emails
+  * Removing Signatures
+  * Removing HTML Tags and Formatting
+  * Handling irrelevant URLs links
+  * Normalizing Text
+  * Handling Special Characters and Entities
+  * Removing Irrelevant Content
+  * Removing Stop Words
+
+2. Dataset Preparation
+  * Annotation Tool (Manual)
+  * Semi-Automatic (Use ChatGPT for dataset Annotation) + Manual Review
+  * Semi-automatic (Use Model's Prediction for dataset Annotation) + Manual Review
+
+3. Traditional Modelling Approaches
+   * SpacY
+   * BERT
+   * ROBERTA
+   * XLM-ROBERTA
+   * DEBERTA
+  
+ 4. XLM-ROBERTA + ChatGPT Integration ( 3 Pallets of 100 kg each )  
 
 ## Overview
 
