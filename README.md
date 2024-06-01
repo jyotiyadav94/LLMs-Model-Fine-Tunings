@@ -14,6 +14,14 @@ LLM Model Fine-tuned Demo : [LLM Model Fine-tuned Demo](https://huggingface.co/s
   * Handling Special Characters and Entities
   * Removing Irrelevant Content
   * Removing Stop Words
+  * Removing special characters
+  * Remove URL
+  * Remove phone numbers & websites
+  * Remove lines with more than 4 consecutive characters '-'
+  * Custom rules for domain-specific entities
+  * Handling email signatures and metadata
+  * Removal of phrases like "Thank and regards" that remove all the information
+  * Annotate the remaining entities as others
 
 2. Dataset Preparation
   * Annotation Tool (Manual)
