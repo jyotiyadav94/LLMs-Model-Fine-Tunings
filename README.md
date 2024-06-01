@@ -1,10 +1,10 @@
 # Named Entity Recognition on Italian Emails
 
-Use Case Demo : [Use Case Demo](https://huggingface.co/spaces/Jyotiyadav/QSPOT_SEA_2.0.0)
+Use Case Demo : [Use Case Demo](https://huggingface.co/spaces/Jyotiyadav/QSPOT_SEA_2.0.0) (Private)
 
-Agent Demo : [Agent Demo](https://huggingface.co/spaces/Jyotiyadav/NER-Agent)
+Agent Demo : [Agent Demo](https://huggingface.co/spaces/Jyotiyadav/NER-Agent) (Private)
 
-LLM Model Fine-tuned Demo : [LLM Model Fine-tuned Demo](https://huggingface.co/spaces/Jyotiyadav/LLMsModelFine-tuned)
+LLM Model Fine-tuned Demo : [LLM Model Fine-tuned Demo](https://huggingface.co/spaces/Jyotiyadav/LLMsModelFine-tuned) (Private)
 
 1. Cleaning Emails
   * Removing Signatures
