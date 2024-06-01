@@ -27,7 +27,8 @@ LLM Model Fine-tuned Demo : [LLM Model Fine-tuned Demo](https://huggingface.co/s
    * XLM-ROBERTA
    * DEBERTA
   
- 4. XLM-ROBERTA + ChatGPT Integration ( 3 Pallets of 100 kg each )  
+ 4. XLM-ROBERTA + ChatGPT Integration ( 3 Pallets of 100 kg each )
+ 5. Agent (Location) + Maps API
 
 ## Overview
 
