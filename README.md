@@ -1,5 +1,12 @@
 # Named Entity Recognition on Italian Emails
 
+Use Case Demo : [Use Case Demo](https://huggingface.co/spaces/Jyotiyadav/QSPOT_SEA_2.0.0)
+
+Agent Demo : [Agent Demo](https://huggingface.co/spaces/Jyotiyadav/NER-Agent)
+
+LLM Model Fine-tuned Demo : [LLM Model Fine-tuned Demo](https://huggingface.co/spaces/Jyotiyadav/LLMsModelFine-tuned)
+
+
 ## Overview
 
 This project aims to identify the best Open Large Language Model (LLM) for the Named Entity Recognition (NER) task on Italian emails. The models being compared are:
